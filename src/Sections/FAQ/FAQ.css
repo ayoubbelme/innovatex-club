@@ -1,0 +1,21 @@
+.faq-container {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-title {
+    color: #4682B4;
+    font-weight: bold;
+  }
+  
+  .faq-item {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .faq-body {
+    background-color: #e9ecef;
+    font-style: italic;
+  }

@@ -1,0 +1,95 @@
+/* Navbar.css */
+
+.navbar-custom {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
+}
+
+.navbar-custom .nav-link-custom {
+  color: #006400 !important;
+  text-align: center;
+  font-size: large;
+  transition: color 0.3s ease;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.navbar-custom .nav-link-custom:hover {
+  color: #004d00 !important;
+}
+
+.navbar-custom .nav-link-custom::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Start from the center */
+  transform: translateX(-50%); /* Center the line */
+  width: 0;
+  height: 3px; /* Slightly thicker line */
+  background-color: #007b00;
+  border-radius: 3px; /* Rounded line */
+  transition: width 0.3s ease, background-color 0.3s ease; /* Add background-color transition */
+}
+
+.navbar-custom .nav-link-custom:hover::before {
+  width: 100%;
+  background-color: #004d00; /* Change color on hover */
+}
+
+
+/*  Alternative underline styles */
+
+/* 1.  Wavy Underline */
+.navbar-custom .nav-link-custom.wavy::before {
+  height: 3px; /* Make it a bit taller for the wave */
+  border-radius: 5px 5px 0 0; /* Round only the top corners */
+  animation: wave 0.8s linear infinite; /* Animate the wave */
+}
+
+
+@keyframes wave {
+  0% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-2px); } /* Move up slightly */
+  100% { transform: translateX(-50%) translateY(0); }
+}
+
+
+
+.navbar-custom .nav-link-custom.grow:hover::before {
+  width: 100%;
+}
+
+.navbar-custom .nav-link-custom.dotted:hover::before {
+  width: 100%;
+}
+
+.navbar-custom.scrolled {
+  background-color: #f8f9fa;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.brand-text {
+  font-weight: bold;
+  color: #007b00;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom.scrolled .brand-text {
+  color: #004d00;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+}

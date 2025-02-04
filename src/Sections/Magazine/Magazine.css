@@ -1,0 +1,37 @@
+/* Magazine.css */
+.magazine-container {
+    padding: 20px;
+  }
+  
+  .magazine-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    height: 100%; /* Make cards equal height */
+  }
+  
+  .magazine-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .magazine-card img {
+    object-fit: cover;
+    height: 300px; /* Adjust as needed */
+  }
+  
+  .magazine-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .magazine-card .card-title {
+    font-weight: bold;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .magazine-card {
+      margin-bottom: 20px;
+    }
+  }

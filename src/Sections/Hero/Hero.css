@@ -1,0 +1,77 @@
+.hero {
+    height: 100vh;
+    background: url('../../assets/images/logo.jpg') no-repeat RGB(214, 211, 204) center;
+    background-size: 50%;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.fab{
+    color:#20B2AA;
+}
+.prim{
+    color: #4682B4;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.hero .container-sm {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Improved typing animation */
+.animate-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden; /* Hide text that is not yet typed */
+    display: inline-block;
+    border-right: 4px solid #fff; /* Simulate the cursor */
+    animation: typing 3s steps(40) .5s forwards, blink-caret 0.75s step-end infinite;
+}
+
+/* Typing effect animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Blinking cursor animation */
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .hero {
+        background-size: cover;
+    }
+}

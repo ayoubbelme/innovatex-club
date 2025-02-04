@@ -1,0 +1,39 @@
+.popup {
+    position: fixed;
+    top: 20px; /* Adjust distance from the top */
+    left: 20px; /* Adjust distance from the left */
+    background-color: white;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* Fade-in animation */
+    z-index: 9999;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .popup button {
+    margin-top: 10px;
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+  
