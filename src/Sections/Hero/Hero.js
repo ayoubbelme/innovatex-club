@@ -8,9 +8,7 @@ const Hero = () => {
       <div className="container-sm">
         <h1 className="display-4 animate-title">Welcome to Innova<span className='prim'>tex</span> Club</h1>
         <p className="lead">Where creativity meets innovation. Join us to bring ideas into action!</p>
-        <a href="#about" className="btn btn-primary btn-lg">Join Us</a>
-        
-       
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScxK1sPJ8JBNCNlQ2NFCyVCtp5iA6MFeCEJXMTQ_pZ7y61V6w/viewform?usp=dialog" target='_blank' className="btn btn-primary btn-lg">Join Us</a>
       </div>
     </section>
   );

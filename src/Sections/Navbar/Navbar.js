@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const CustomNavbar = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [expanded, setExpanded] = useState(false); // State for navbar toggle
+  const [expanded, setExpanded] = useState(false); 
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -18,7 +18,7 @@ const CustomNavbar = () => {
   }, []);
 
   const closeNav = () => {
-    setExpanded(false); // Close the navbar on link click (mobile view)
+    setExpanded(false);
   };
 
   return (
@@ -26,11 +26,11 @@ const CustomNavbar = () => {
       fixed="top" 
       expand="lg" 
       className={`navbar-custom ${scrolled ? 'scrolled' : ''}`}
-      expanded={expanded} // Control navbar expansion
+      expanded={expanded} 
     >
       <Container>
-        <Navbar.Brand as={Link} to="/" className="brand-text" onClick={closeNav}> {/* Link to home, close nav */}
-          MyPortfolio
+        <Navbar.Brand as={Link} to="/" className="brand-text" onClick={closeNav}> 
+          Innova<span>tex</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="basic-navbar-nav">

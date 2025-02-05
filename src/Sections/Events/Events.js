@@ -8,11 +8,9 @@ const Events = () => {
     {
       id: 1,
       title: 'Openday',
-      date: '2025-02-11',
-      time: '10:00 AM',
-      location: 'Innovation Hub',
+      date: '?',
+      location: 'Medicine Faculty',
       description: '',
-      imageUrl: med,
     },
    
   ];

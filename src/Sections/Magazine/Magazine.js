@@ -9,7 +9,7 @@ const Magazine = () => {
       title: 'March 2024 Edition',
       date: 'March 2024',
     //   fileUrl: 'PDFS/Estimation par intervalle.pdf', 
-      coverImageUrl: 'march2024cover.jpg', 
+      coverImageUrl: '', 
     },
    
     

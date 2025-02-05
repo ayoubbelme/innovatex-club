@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 
 .navbar-custom {
   background-color: white;
@@ -29,34 +29,32 @@
   content: '';
   position: absolute;
   bottom: 0;
-  left: 50%; /* Start from the center */
-  transform: translateX(-50%); /* Center the line */
+  left: 50%; 
+  transform: translateX(-50%);
   width: 0;
-  height: 3px; /* Slightly thicker line */
+  height: 3px; 
   background-color: #007b00;
-  border-radius: 3px; /* Rounded line */
-  transition: width 0.3s ease, background-color 0.3s ease; /* Add background-color transition */
+  border-radius: 3px; 
+  transition: width 0.3s ease, background-color 0.3s ease; 
 }
 
 .navbar-custom .nav-link-custom:hover::before {
   width: 100%;
-  background-color: #004d00; /* Change color on hover */
+  background-color: #004d00; 
 }
 
 
-/*  Alternative underline styles */
 
-/* 1.  Wavy Underline */
 .navbar-custom .nav-link-custom.wavy::before {
-  height: 3px; /* Make it a bit taller for the wave */
-  border-radius: 5px 5px 0 0; /* Round only the top corners */
-  animation: wave 0.8s linear infinite; /* Animate the wave */
+  height: 3px; 
+  border-radius: 5px 5px 0 0; 
+  animation: wave 0.8s linear infinite; 
 }
 
 
 @keyframes wave {
   0% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(-2px); } /* Move up slightly */
+  50% { transform: translateX(-50%) translateY(-2px); } 
   100% { transform: translateX(-50%) translateY(0); }
 }
 
@@ -78,8 +76,9 @@
 .brand-text {
   font-weight: bold;
   color: #007b00;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   transition: color 0.3s ease;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-custom.scrolled .brand-text {
@@ -93,3 +92,5 @@
       margin-right: 10px;
   }
 }
+span{color: #4682B4;
+  }

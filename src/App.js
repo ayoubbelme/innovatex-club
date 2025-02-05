@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Navbar,Hero,About,Contact,Team,Events,FAQ } from './Sections/index';
+import { Navbar,Hero,About,Contact,Team,Events,FAQ,Footer } from './Sections/index';
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
     <Team/>
     <Events/>
     <FAQ/>
+    <Footer/>
     
     
   </BrowserRouter>

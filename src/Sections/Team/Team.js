@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import "./Team.css";
 
 const teamMembers = [
-  { name: "John Doe", role: "Frontend Developer", description: "John is an expert in React and UI/UX design.", image: "https://via.placeholder.com/150" },
-  { name: "Jane Smith", role: "Backend Developer", description: "Jane specializes in Node.js and databases.", image: "https://via.placeholder.com/150" },
-  { name: "Jane Smith", role: "Backend Developer", description: "Jane specializes in Node.js and databases.", image: "https://via.placeholder.com/150" },
-  { name: "Jane Smith", role: "Backend Developer", description: "Jane specializes in Node.js and databases.", image: "https://via.placeholder.com/150" },
-  { name: "Jane Smith", role: "Backend Developer", description: "Jane specializes in Node.js and databases.", image: "https://via.placeholder.com/150" },
-  { name: "Mike Johnson", role: "Project Manager", description: "Mike ensures smooth project execution.", image: "https://via.placeholder.com/150" }
+  { name: "?", role: "", description: "" },
+  { name: "?", role: "", description: "" },
+  { name: "?", role: "", description: "" },
+  { name: "?", role: "", description: "" },
+  { name: "?", role: "", description: "" },
+  { name: "?", role: "", description: "" }
 ];
 
 const Team = () => {
@@ -36,7 +36,6 @@ const Team = () => {
             >
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img src={member.image} alt={member.name} className="img-fluid rounded-circle" />
                   <h5 className="mt-3">{member.name}</h5>
                   <p className="role">{member.role}</p>
                 </div>

@@ -12,16 +12,20 @@ const faqs = [
     answer: "Any student with an interest in medicine, healthcare, or related fields is welcome to join. Membership is open to all."
   },
   {
-    question: "Are there any membership fees?",
-    answer: "No, joining the club is free. However, some events or workshops may require a small fee to cover materials and resources."
+    question: "What does Innovate-x mean?",
+    answer: "It is a word made up of two parts :Innovate, which means innovation and is the basis of our scientific club The letter X, which symbolizes its absorption of all specializations and the exchange of ideas and knowledge This is the basis of the club"
   },
   {
-    question: "What kind of events does the club organize?",
-    answer: "The club organizes guest lectures, medical workshops, health awareness campaigns, research discussions, and volunteering activities."
+    question: "What are the most important features of the club?",
+    answer: "The club provides an opportunity for many students from different fields to meet, especially the field of pharmacy, in addition to being the first scientific club to launch a digital platform and its own scientific magazine."
+  },
+  {
+    question: "What does the magazine contain?",
+    answer: "It is a magazine that contains many scientific articles in the field of pharmacy, which are of interest not only to pharmacy students, but to all groups, as it provides scientific articles on physical and mental health, advice for the best use of medicinal plants, and many other topics."
   },
   {
     question: "How can I stay updated on club activities?",
-    answer: "You can follow us on social media, check our website regularly, or subscribe to our newsletter for updates."
+    answer: "You can follow us on social media, check our website regularly, or follow us on facebook and instagram for updates."
   }
 ];
 

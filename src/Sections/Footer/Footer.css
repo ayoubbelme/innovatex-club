@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social-icons a {
+    font-size: 1.2rem; /* Adjust icon size */
+    margin-right: 10px; /* Add spacing between icons */
+  }
+  
+  .font-grey {  /* Style for the text color */
+    color: #adb5bd; /* Example: A light gray color, adjust as needed */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) { /* Medium screens and smaller */
+    .footer .col-md-6 {
+      margin-bottom: 20px; /* Add spacing between columns on smaller screens */
+    }
+    .social-icons {
+      text-align: center; /* Center social icons on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) { /* Small screens */
+    .footer .col-sm-12 {
+      text-align: center; /* Center content within columns on small screens */
+    }
+  }
+  
+  /* Optional: Add padding to the footer */
+  .footer .container {
+    padding: 20px;
+  }
