@@ -30,7 +30,7 @@ const CustomNavbar = () => {
     >
       <Container>
         <Navbar.Brand as={Link} to="/" className="brand-text" onClick={closeNav}> 
-          Innova<span>tex</span>
+          Innova<span className='tex'>tex</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="basic-navbar-nav">
