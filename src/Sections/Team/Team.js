@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import "./Team.css";
 
 const teamMembers = [
-  { name: "?", role: "", description: "" },
-  { name: "?", role: "", description: "" },
-  { name: "?", role: "", description: "" },
-  { name: "?", role: "", description: "" },
-  { name: "?", role: "", description: "" },
-  { name: "?", role: "", description: "" }
+  { name: "Akram chabouti", role: "président", description: "Pharmacy student" },
+  { name: "Ali Messaoud chayma", role: "vise président", description: "Pharmacy student" },
+  { name: "Benahmed Djillali lina", role: "Activities office officer", description: "Pharmacy student" },
+  { name: "Kachaou hadil", role: "relationship officer", description: "Pharmacy student" },
+  { name: "Kerriche Hanane", role: "Head of the pharmacy department", description: "Pharmacy student" },
+  
 ];
 
 const Team = () => {
