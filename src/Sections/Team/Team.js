@@ -9,6 +9,7 @@ const teamMembers = [
   { name: "Benahmed Djillali lina", role: "Activities office officer", description: "Pharmacy student" },
   { name: "Kachaou hadil", role: "relationship officer", description: "Pharmacy student" },
   { name: "Kerriche Hanane", role: "Head of the pharmacy department", description: "Pharmacy student" },
+  { name: "Bekouche chaima", role: "DRH", description: "Pharmacy student" },
   
 ];
 
