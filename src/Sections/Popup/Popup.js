@@ -9,7 +9,7 @@ const Popup = () => {
   };
 
   const handleRead = () => {
-    window.open('/pdfs/march2024.pdf', '_blank'); 
+    window.open('/pdfs/enquete ethnobotanique (plantes allergenes).pdf', '_blank'); 
     setShowPopup(false); // Hide popup after the button is clicked
   };
 

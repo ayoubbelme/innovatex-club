@@ -1,16 +1,18 @@
 
 import './App.css';
-import { Navbar,Hero,About,Contact,Team,Events,FAQ,Footer } from './Sections/index';
+import { Popup,Navbar,Hero,About,Contact,Magazine,Team,Events,FAQ,Footer } from './Sections/index';
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
  <>
   <BrowserRouter>
+    <Popup/>
     <Navbar />
     <Hero/>
     <About/>
     <Contact/>
+    <Magazine/>
     <Team/>
     <Events/>
     <FAQ/>

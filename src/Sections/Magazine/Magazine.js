@@ -1,15 +1,16 @@
 import React from 'react';
 import './Magazine.css';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import enquete from '../../assets/images/enquete.jpg';
 
 const Magazine = () => {
   const magazines = [
     {
       id: 1,
-      title: 'March 2024 Edition',
-      date: 'March 2024',
-    //   fileUrl: 'PDFS/Estimation par intervalle.pdf', 
-      coverImageUrl: '', 
+      title: 'enquete ethnobotanique (plantes allergenes)',
+      date: 'June 2025',
+      fileUrl: 'PDFS/enquete ethnobotanique (plantes allergenes).pdf', 
+      coverImageUrl: enquete, 
     },
    
     
@@ -17,7 +18,7 @@ const Magazine = () => {
 
   return (
     <Container className="magazine-container" id='Magazine'>
-      <h2 className="text-center mb-4">Monthly Magazines</h2>
+      <h2 className="text-center mb-4">Magazines</h2>
       <Row>
         {magazines.map((magazine) => (
           <Col md={4} className="mb-4" key={magazine.id}>
