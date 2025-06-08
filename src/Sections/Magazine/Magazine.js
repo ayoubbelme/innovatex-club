@@ -9,7 +9,7 @@ const Magazine = () => {
       id: 1,
       title: 'enquete ethnobotanique (plantes allergenes)',
       date: 'June 2025',
-      fileUrl: 'PDFS/enquete ethnobotanique (plantes allergenes).pdf', 
+      fileUrl: '/PDFS/enquete ethnobotanique (plantes allergenes).pdf', 
       coverImageUrl: enquete, 
     },
    
